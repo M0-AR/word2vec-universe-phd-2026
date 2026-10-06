@@ -16,7 +16,7 @@
 4. **Use:** Students learn embeddings in an afternoon; engineers copy the grid harness; quants test headline→market ideas; teachers demo live in 60 seconds.
 5. **Cost:** CPU-only, 60 seconds for the smoke test, one Docker command for everything. MIT — use it anywhere.
 
-🌐 **Website version of this page:** open [`preview.html`](preview.html) locally, or after push enable Pages (Settings → Pages → Deploy from branch → `main` → `/docs`) and open `https://<you>.github.io/<repo>/` (served from [`docs/index.html`](docs/index.html)).
+🌐 **Website:** open [`preview.html`](preview.html) locally, or live at `https://M0-AR.github.io/word2vec-universe-phd-2026/` (Pages source `/docs` → [`docs/index.html`](docs/index.html)). Mirrors: [`index.html`](index.html) (root redirect) · [`docs/preview.html`](docs/preview.html).
 
 ## Demo (watch, then run)
 
@@ -79,7 +79,7 @@ In plain words — what each part does and why it exists:
 - **📐 Analogy + compositionality** — `berlin − germany + france ≈ paris`. `russia + river ≈ volga (0.98)`. Odd-one-out test included.
 - **📊 Honest benchmarks** — Grid over `model × window × size`. Reports three numbers every time: correct, attempted, total. A percent without coverage is misleading — this repo proves it.
 - **📈 Live verification** — Real stock quotes + real headlines. Shows finance training spreads vectors (0.02–0.28) while tiny generic training collapses (0.99). Domain matters.
-- **🌐 Website** — [`preview.html`](preview.html) and [`docs/index.html`](docs/index.html) are the same beautiful page. Open locally or publish with Pages.
+- **🌐 Website** — [`preview.html`](preview.html) (root mirror) = [`docs/preview.html`](docs/preview.html) = [`docs/index.html`](docs/index.html) (Pages entry) with [`index.html`](index.html) redirecting `/` → `/preview.html`. Open locally or publish with Pages.
 
 ## 👥 Who is this for
 
@@ -239,29 +239,33 @@ See `configs/tiny.yaml`, `configs/small.yaml`, `configs/finance_live.yaml`.
 
 ## 🎬 Video
 
-- Watch: open [`preview.html`](preview.html) (video player) or the GIF above (autoplays in README).
+- Watch: open [`preview.html`](preview.html) or [`docs/preview.html`](docs/preview.html) (video player) or the GIF above (autoplays in README).
 - Files: [`docs/demo.gif`](docs/demo.gif) (inline, ≤5 MB, works on mobile/mirrors), [`docs/demo.mp4`](docs/demo.mp4) (crisp, website player).
 - Remake: `python scripts/make_demo_assets.py` (uses your real `results/*.json`, Pillow + ffmpeg — both verified here).
 - Add your own: record 5–10 s → export MP4 → convert first seconds to GIF → put GIF in README, link MP4 beside it, and embed `<video>` on the website.
 
 ## 🌐 GitHub Pages
 
-This repo ships a ready website: [`preview.html`](preview.html) (open locally) = [`docs/index.html`](docs/index.html) (published).
+This repo ships a ready website with mirrors so it works under either Pages source setting (recommended: `/docs`).
+
+Live URLs (after enabling Pages below): `https://M0-AR.github.io/word2vec-universe-phd-2026/` (= [`docs/index.html`](docs/index.html)) · `/preview.html` (= [`docs/preview.html`](docs/preview.html)) · `/docs/preview.html` (root source path).
 
 Publish in 1 minute:
 
-1. Push: `git add docs preview.html README.md && git commit -m "site" && git push`
+1. Push: `git add docs preview.html index.html README.md && git commit -m "site" && git push`
 2. GitHub → Settings → Pages → Deploy from branch → Branch: `main` → Folder: `/docs` → Save
-3. Wait ~1 minute → open `https://<you>.github.io/<repo>/`
+3. Wait 1–2 min (check Actions “pages build and deployment”), then probe: `/` → 200, `/preview.html` → 200, `/docs/preview.html` → 404 under `/docs` source is correct (use `/preview.html`); under root source `/docs/preview.html` → 200.
 4. Optional custom domain: Settings → Pages → Custom domain → add `CNAME` file.
 
-Local check: `python3 -m http.server 8000` → `http://localhost:8000/preview.html`. The file `docs/.nojekyll` keeps Pages from altering plain HTML.
+Local check: `python3 -m http.server 8000` → `http://localhost:8000/preview.html` and `http://localhost:8000/docs/preview.html`. `.nojekyll` exists in both `/` and `/docs` so Pages serves plain HTML as-is.
 
 ## 🗂️ Repo map
 
 ```text
-preview.html          ← open me locally (same as docs/index.html)
-docs/index.html       ← the published website (Pages → /docs)
+index.html            ← root redirect (/ → /preview.html) + fallbacks
+preview.html          ← root mirror (same as docs/preview.html, asset prefix docs/)
+docs/index.html       ← Pages entry for source /docs (serves /)
+docs/preview.html     ← canonical page (serves /preview.html under /docs source)
 docs/demo.gif|mp4     ← 6-frame demo (GIF inline, MP4 player)
 docs/embeddings.png   ← PCA of your trained vectors
 docs/loss-curve.png   ← your loss 4.11 → 2.49
