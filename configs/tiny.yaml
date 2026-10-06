@@ -1,0 +1,17 @@
+# tiny: 60-second smoke test, fully deterministic, CPU-only
+seed: 42
+corpus: synthetic  # synthetic | text8 | live
+synthetic_sentences: 2000
+dim: 50
+window: 2
+min_count: 2
+sample_t: 1.0e-3
+negative: 5
+ns_exponent: 0.75
+hs: 0
+sg: 1  # 1=skipgram, 0=cbow
+epochs: 3
+alpha: 0.025
+min_alpha: 0.0001
+workers: 1
+analogy_file: data/questions-words.sample.txt

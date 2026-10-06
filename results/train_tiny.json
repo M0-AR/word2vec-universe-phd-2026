@@ -1,0 +1,25 @@
+{
+  "losses": [
+    4.115845585274729,
+    2.892467115320562,
+    2.4971694154922086
+  ],
+  "config": {
+    "seed": 42,
+    "corpus": "synthetic",
+    "synthetic_sentences": 2000,
+    "dim": 50,
+    "window": 2,
+    "min_count": 2,
+    "sample_t": 0.001,
+    "negative": 5,
+    "ns_exponent": 0.75,
+    "hs": 0,
+    "sg": 1,
+    "epochs": 3,
+    "alpha": 0.025,
+    "min_alpha": 0.0001,
+    "workers": 1,
+    "analogy_file": "data/questions-words.sample.txt"
+  }
+}

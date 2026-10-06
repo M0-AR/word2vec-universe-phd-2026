@@ -1,0 +1,31 @@
+: capital-common
+athens greece oslo norway
+athens greece berlin germany
+paris france berlin germany
+paris france tokyo japan
+: currency
+angola kwanza iran rial
+: city-in-state
+chicago illinois stockton california
+: adjective-to-adverb
+apparent apparently rapid rapidly
+: opposite
+possibly impossibly ethical unethical
+: comparative
+great greater tough tougher
+big bigger small smaller
+: superlative
+easy easiest lucky luckiest
+: present-participle
+think thinking read reading
+: nationality-adjective
+switzerland swiss cambodia cambodian
+: past-tense
+walking walked swimming swam
+: plural-nouns
+mouse mice dollar dollars
+: plural-verbs
+work works speak speaks
+: family
+brother sister grandson granddaughter
+king queen man woman

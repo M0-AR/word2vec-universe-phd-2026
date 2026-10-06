@@ -1,0 +1,17 @@
+# small: text8-scale reproduction (needs download)
+seed: 42
+corpus: text8
+text8_url: https://mattmahoney.net/dc/text8.zip
+dim: 100
+window: 5
+min_count: 5
+sample_t: 1.0e-5
+negative: 5
+ns_exponent: 0.75
+hs: 0
+sg: 1
+epochs: 1
+alpha: 0.025
+min_alpha: 0.0001
+workers: 1
+analogy_file: data/questions-words.sample.txt

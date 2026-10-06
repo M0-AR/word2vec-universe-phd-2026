@@ -1,0 +1,14 @@
+{
+  "total": 18,
+  "answerable": 6,
+  "correct": 0,
+  "coverage": 0.3333333333333333,
+  "acc_answerable": 0.0,
+  "acc_total": 0.0,
+  "by_section": {
+    "capital-common": 0.0,
+    "comparative": 0.0,
+    "present-participle": 0.0,
+    "past-tense": 0.0
+  }
+}

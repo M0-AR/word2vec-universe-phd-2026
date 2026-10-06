@@ -1,0 +1,569 @@
+{
+  "quotes": {
+    "AAPL": {
+      "symbol": "AAPL",
+      "last_close": 332.8900146484375,
+      "prev_close": 333.69000244140625,
+      "n_days": 20,
+      "meta": {
+        "currency": "USD",
+        "symbol": "AAPL",
+        "exchangeName": "NMS",
+        "fullExchangeName": "NasdaqGS",
+        "instrumentType": "EQUITY",
+        "firstTradeDate": 345479400,
+        "regularMarketTime": 1791230402,
+        "hasPrePostMarketData": true,
+        "gmtoffset": -14400,
+        "timezone": "EDT",
+        "exchangeTimezoneName": "America/New_York",
+        "regularMarketPrice": 332.89,
+        "regularMarketChangePercent": -0.24,
+        "fulldayPrice": 332.89,
+        "fulldayChange": 0.11,
+        "fulldayChangePercent": 0.033,
+        "fiftyTwoWeekHigh": 345.34,
+        "fiftyTwoWeekLow": 243.42,
+        "regularMarketDayHigh": 336.19,
+        "regularMarketDayLow": 331.65,
+        "regularMarketVolume": 34328912,
+        "longName": "Apple Inc.",
+        "shortName": "Apple Inc.",
+        "chartPreviousClose": 319.97,
+        "priceHint": 2,
+        "currentTradingPeriod": {
+          "pre": {
+            "timezone": "EDT",
+            "start": 1791273600,
+            "end": 1791293400,
+            "gmtoffset": -14400
+          },
+          "regular": {
+            "timezone": "EDT",
+            "start": 1791293400,
+            "end": 1791316800,
+            "gmtoffset": -14400
+          },
+          "post": {
+            "timezone": "EDT",
+            "start": 1791316800,
+            "end": 1791331200,
+            "gmtoffset": -14400
+          }
+        },
+        "dataGranularity": "1d",
+        "range": "1mo",
+        "validRanges": [
+          "1d",
+          "5d",
+          "1mo",
+          "3mo",
+          "6mo",
+          "1y",
+          "2y",
+          "5y",
+          "10y",
+          "ytd",
+          "max"
+        ]
+      }
+    },
+    "MSFT": {
+      "symbol": "MSFT",
+      "last_close": 525.1799926757812,
+      "prev_close": 517.530029296875,
+      "n_days": 20,
+      "meta": {
+        "currency": "USD",
+        "symbol": "MSFT",
+        "exchangeName": "NMS",
+        "fullExchangeName": "NasdaqGS",
+        "instrumentType": "EQUITY",
+        "firstTradeDate": 511108200,
+        "regularMarketTime": 1791230402,
+        "hasPrePostMarketData": true,
+        "gmtoffset": -14400,
+        "timezone": "EDT",
+        "exchangeTimezoneName": "America/New_York",
+        "regularMarketPrice": 525.18,
+        "regularMarketChangePercent": 1.478,
+        "fulldayPrice": 525.18,
+        "fulldayChange": 2.68,
+        "fulldayChangePercent": 0.51,
+        "fiftyTwoWeekHigh": 553.72,
+        "fiftyTwoWeekLow": 349.2,
+        "regularMarketDayHigh": 532.35,
+        "regularMarketDayLow": 521.53,
+        "regularMarketVolume": 26287910,
+        "longName": "Microsoft Corporation",
+        "shortName": "Microsoft Corporation",
+        "chartPreviousClose": 499.7,
+        "priceHint": 2,
+        "currentTradingPeriod": {
+          "pre": {
+            "timezone": "EDT",
+            "start": 1791273600,
+            "end": 1791293400,
+            "gmtoffset": -14400
+          },
+          "regular": {
+            "timezone": "EDT",
+            "start": 1791293400,
+            "end": 1791316800,
+            "gmtoffset": -14400
+          },
+          "post": {
+            "timezone": "EDT",
+            "start": 1791316800,
+            "end": 1791331200,
+            "gmtoffset": -14400
+          }
+        },
+        "dataGranularity": "1d",
+        "range": "1mo",
+        "validRanges": [
+          "1d",
+          "5d",
+          "1mo",
+          "3mo",
+          "6mo",
+          "1y",
+          "2y",
+          "5y",
+          "10y",
+          "ytd",
+          "max"
+        ]
+      }
+    },
+    "NVDA": {
+      "symbol": "NVDA",
+      "last_close": 238.89999389648438,
+      "prev_close": 233.9499969482422,
+      "n_days": 20,
+      "meta": {
+        "currency": "USD",
+        "symbol": "NVDA",
+        "exchangeName": "NMS",
+        "fullExchangeName": "NasdaqGS",
+        "instrumentType": "EQUITY",
+        "firstTradeDate": 917015400,
+        "regularMarketTime": 1791230401,
+        "hasPrePostMarketData": true,
+        "gmtoffset": -14400,
+        "timezone": "EDT",
+        "exchangeTimezoneName": "America/New_York",
+        "regularMarketPrice": 238.9,
+        "regularMarketChangePercent": 2.116,
+        "fulldayPrice": 238.9,
+        "fulldayChange": 1.88,
+        "fulldayChangePercent": 0.787,
+        "fiftyTwoWeekHigh": 240.098,
+        "fiftyTwoWeekLow": 164.27,
+        "regularMarketDayHigh": 240.098,
+        "regularMarketDayLow": 235.15,
+        "regularMarketVolume": 126384437,
+        "longName": "NVIDIA Corporation",
+        "shortName": "NVIDIA Corporation",
+        "chartPreviousClose": 230.36,
+        "priceHint": 2,
+        "currentTradingPeriod": {
+          "pre": {
+            "timezone": "EDT",
+            "end": 1791293400,
+            "start": 1791273600,
+            "gmtoffset": -14400
+          },
+          "regular": {
+            "timezone": "EDT",
+            "end": 1791316800,
+            "start": 1791293400,
+            "gmtoffset": -14400
+          },
+          "post": {
+            "timezone": "EDT",
+            "end": 1791331200,
+            "start": 1791316800,
+            "gmtoffset": -14400
+          }
+        },
+        "dataGranularity": "1d",
+        "range": "1mo",
+        "validRanges": [
+          "1d",
+          "5d",
+          "1mo",
+          "3mo",
+          "6mo",
+          "1y",
+          "2y",
+          "5y",
+          "10y",
+          "ytd",
+          "max"
+        ]
+      }
+    },
+    "TSLA": {
+      "symbol": "TSLA",
+      "last_close": 378.7300109863281,
+      "prev_close": 370.5899963378906,
+      "n_days": 20,
+      "meta": {
+        "currency": "USD",
+        "symbol": "TSLA",
+        "exchangeName": "NMS",
+        "fullExchangeName": "NasdaqGS",
+        "instrumentType": "EQUITY",
+        "firstTradeDate": 1277818200,
+        "regularMarketTime": 1791230401,
+        "hasPrePostMarketData": true,
+        "gmtoffset": -14400,
+        "timezone": "EDT",
+        "exchangeTimezoneName": "America/New_York",
+        "regularMarketPrice": 378.73,
+        "regularMarketChangePercent": 2.197,
+        "fulldayPrice": 378.73,
+        "fulldayChange": 2.79,
+        "fulldayChangePercent": 0.737,
+        "fiftyTwoWeekHigh": 498.83,
+        "fiftyTwoWeekLow": 297.38,
+        "regularMarketDayHigh": 381.59,
+        "regularMarketDayLow": 364.91,
+        "regularMarketVolume": 42006295,
+        "longName": "Tesla, Inc.",
+        "shortName": "Tesla, Inc.",
+        "chartPreviousClose": 354.08,
+        "priceHint": 2,
+        "currentTradingPeriod": {
+          "pre": {
+            "timezone": "EDT",
+            "start": 1791273600,
+            "end": 1791293400,
+            "gmtoffset": -14400
+          },
+          "regular": {
+            "timezone": "EDT",
+            "start": 1791293400,
+            "end": 1791316800,
+            "gmtoffset": -14400
+          },
+          "post": {
+            "timezone": "EDT",
+            "start": 1791316800,
+            "end": 1791331200,
+            "gmtoffset": -14400
+          }
+        },
+        "dataGranularity": "1d",
+        "range": "1mo",
+        "validRanges": [
+          "1d",
+          "5d",
+          "1mo",
+          "3mo",
+          "6mo",
+          "1y",
+          "2y",
+          "5y",
+          "10y",
+          "ytd",
+          "max"
+        ]
+      }
+    },
+    "SPY": {
+      "symbol": "SPY",
+      "last_close": 774.8300170898438,
+      "prev_close": 769.6400146484375,
+      "n_days": 20,
+      "meta": {
+        "currency": "USD",
+        "symbol": "SPY",
+        "exchangeName": "PCX",
+        "fullExchangeName": "NYSEArca",
+        "instrumentType": "ETF",
+        "firstTradeDate": 728317800,
+        "regularMarketTime": 1791230400,
+        "hasPrePostMarketData": true,
+        "gmtoffset": -14400,
+        "timezone": "EDT",
+        "exchangeTimezoneName": "America/New_York",
+        "regularMarketPrice": 774.83,
+        "regularMarketChangePercent": 0.674,
+        "fulldayPrice": 774.83,
+        "fulldayChange": 1.56,
+        "fulldayChangePercent": 0.201,
+        "fiftyTwoWeekHigh": 779.37,
+        "fiftyTwoWeekLow": 629.28,
+        "regularMarketDayHigh": 776.605,
+        "regularMarketDayLow": 769.69,
+        "regularMarketVolume": 44092056,
+        "longName": "State Street SPDR S&P 500 ETF Trust",
+        "shortName": "State Street SPDR S&P 500 ETF T",
+        "chartPreviousClose": 770.19,
+        "priceHint": 2,
+        "currentTradingPeriod": {
+          "pre": {
+            "timezone": "EDT",
+            "end": 1791293400,
+            "start": 1791273600,
+            "gmtoffset": -14400
+          },
+          "regular": {
+            "timezone": "EDT",
+            "end": 1791316800,
+            "start": 1791293400,
+            "gmtoffset": -14400
+          },
+          "post": {
+            "timezone": "EDT",
+            "end": 1791331200,
+            "start": 1791316800,
+            "gmtoffset": -14400
+          }
+        },
+        "dataGranularity": "1d",
+        "range": "1mo",
+        "validRanges": [
+          "1d",
+          "5d",
+          "1mo",
+          "3mo",
+          "6mo",
+          "1y",
+          "2y",
+          "5y",
+          "10y",
+          "ytd",
+          "max"
+        ]
+      }
+    },
+    "600519.SS": {
+      "symbol": "600519.SS",
+      "last_close": 1258.6199951171875,
+      "prev_close": 1235.5799560546875,
+      "n_days": 22,
+      "meta": {
+        "currency": "CNY",
+        "symbol": "600519.SS",
+        "exchangeName": "SHH",
+        "fullExchangeName": "Shanghai",
+        "instrumentType": "EQUITY",
+        "firstTradeDate": 998875800,
+        "regularMarketTime": 1790751601,
+        "hasPrePostMarketData": false,
+        "gmtoffset": 28800,
+        "timezone": "CST",
+        "exchangeTimezoneName": "Asia/Shanghai",
+        "regularMarketPrice": 1258.62,
+        "regularMarketChangePercent": 1.865,
+        "fulldayPrice": 1258.62,
+        "fulldayChange": 23.04,
+        "fulldayChangePercent": 1.865,
+        "fiftyTwoWeekHigh": 1568.0,
+        "fiftyTwoWeekLow": 1151.01,
+        "regularMarketDayHigh": 1268.0,
+        "regularMarketDayLow": 1236.05,
+        "regularMarketVolume": 3833098,
+        "longName": "Kweichow Moutai Co., Ltd.",
+        "shortName": "KWEICHOW MOUTAI",
+        "chartPreviousClose": 1297.4,
+        "priceHint": 2,
+        "currentTradingPeriod": {
+          "pre": {
+            "timezone": "CST",
+            "start": 1790731800,
+            "end": 1790731800,
+            "gmtoffset": 28800
+          },
+          "regular": {
+            "timezone": "CST",
+            "start": 1790731800,
+            "end": 1790751600,
+            "gmtoffset": 28800
+          },
+          "post": {
+            "timezone": "CST",
+            "start": 1790751600,
+            "end": 1790751600,
+            "gmtoffset": 28800
+          }
+        },
+        "dataGranularity": "1d",
+        "range": "1mo",
+        "validRanges": [
+          "1d",
+          "5d",
+          "1mo",
+          "3mo",
+          "6mo",
+          "1y",
+          "2y",
+          "5y",
+          "10y",
+          "ytd",
+          "max"
+        ]
+      }
+    }
+  },
+  "provenance": {
+    "queries": {
+      "stock market": 10,
+      "Federal Reserve rates": 10,
+      "AI chips earnings": 10,
+      "oil price": 10
+    },
+    "n_texts": 40,
+    "n_live": 40,
+    "n_anchor": 160
+  },
+  "finance_vocab": 136,
+  "generic_vocab": 53,
+  "finance_final_loss": 4.157548170701501,
+  "generic_final_loss": 1.2020932652197465,
+  "probes": {
+    "profit~gain": {
+      "finance": 0.0204,
+      "generic": 0.9989
+    },
+    "profit~loss": {
+      "finance": 0.0637,
+      "generic": 0.9948
+    },
+    "revenue~growth": {
+      "finance": 0.1417,
+      "generic": 0.9987
+    },
+    "apple~iphone": {
+      "finance": -0.1559
+    }
+  },
+  "finance_analogy": {
+    "total": 5,
+    "answerable": 5,
+    "correct": 0,
+    "coverage": 1.0,
+    "acc_answerable": 0.0,
+    "acc_total": 0.0,
+    "by_section": {
+      "profit-loss": 0.0,
+      "market-sentiment": 0.0,
+      "rates": 0.0
+    }
+  },
+  "neighbours": {
+    "profit": [
+      [
+        "as",
+        0.5997201555477972
+      ],
+      [
+        "rises",
+        0.4959058614160337
+      ],
+      [
+        "center",
+        0.4919368948659341
+      ],
+      [
+        "time",
+        0.4857389154655952
+      ],
+      [
+        "bull",
+        0.4509612071970359
+      ]
+    ],
+    "loss": [
+      [
+        "s",
+        0.5138243043575439
+      ],
+      [
+        "seek",
+        0.40668221645397945
+      ],
+      [
+        "boost",
+        0.40359720978449504
+      ],
+      [
+        "bear",
+        0.3213190332872177
+      ],
+      [
+        "price",
+        0.3069500217093924
+      ]
+    ],
+    "rates": [
+      [
+        "center",
+        0.6830184360545144
+      ],
+      [
+        "for",
+        0.674344777832472
+      ],
+      [
+        "funds",
+        0.6407563902742186
+      ],
+      [
+        "rate",
+        0.6371760179146807
+      ],
+      [
+        "wti",
+        0.6366751175640833
+      ]
+    ],
+    "apple": [
+      [
+        "beat",
+        0.4888419121945876
+      ],
+      [
+        "rate",
+        0.46916377627100636
+      ],
+      [
+        "fred",
+        0.45066547679583113
+      ],
+      [
+        "and",
+        0.4488997961140068
+      ],
+      [
+        "2026",
+        0.433865746903978
+      ]
+    ],
+    "market": [
+      [
+        "rate",
+        0.6143047353289348
+      ],
+      [
+        "time",
+        0.6058986306140248
+      ],
+      [
+        "reserve",
+        0.577625060097369
+      ],
+      [
+        "bears",
+        0.5590244500830001
+      ],
+      [
+        "workloads",
+        0.5562214529231634
+      ]
+    ]
+  }
+}

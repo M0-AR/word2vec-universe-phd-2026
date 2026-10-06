@@ -1,0 +1,98 @@
+[
+  {
+    "sg": 0,
+    "window": 2,
+    "dim": 25,
+    "final_loss": 3.7370400891749083,
+    "acc_total": 0.0,
+    "acc_answerable": 0.0,
+    "coverage": 0.3333333333333333,
+    "correct": 0,
+    "answerable": 6,
+    "secs": 0.25623488426208496
+  },
+  {
+    "sg": 0,
+    "window": 2,
+    "dim": 50,
+    "final_loss": 3.843114384098548,
+    "acc_total": 0.05555555555555555,
+    "acc_answerable": 0.16666666666666666,
+    "coverage": 0.3333333333333333,
+    "correct": 1,
+    "answerable": 6,
+    "secs": 0.2680079936981201
+  },
+  {
+    "sg": 0,
+    "window": 5,
+    "dim": 25,
+    "final_loss": 3.753807618158439,
+    "acc_total": 0.0,
+    "acc_answerable": 0.0,
+    "coverage": 0.3333333333333333,
+    "correct": 0,
+    "answerable": 6,
+    "secs": 0.3257718086242676
+  },
+  {
+    "sg": 0,
+    "window": 5,
+    "dim": 50,
+    "final_loss": 3.8612265392609797,
+    "acc_total": 0.05555555555555555,
+    "acc_answerable": 0.16666666666666666,
+    "coverage": 0.3333333333333333,
+    "correct": 1,
+    "answerable": 6,
+    "secs": 0.285449743270874
+  },
+  {
+    "sg": 1,
+    "window": 2,
+    "dim": 25,
+    "final_loss": 2.860363706103213,
+    "acc_total": 0.05555555555555555,
+    "acc_answerable": 0.16666666666666666,
+    "coverage": 0.3333333333333333,
+    "correct": 1,
+    "answerable": 6,
+    "secs": 0.356245756149292
+  },
+  {
+    "sg": 1,
+    "window": 2,
+    "dim": 50,
+    "final_loss": 2.93031353484925,
+    "acc_total": 0.16666666666666666,
+    "acc_answerable": 0.5,
+    "coverage": 0.3333333333333333,
+    "correct": 3,
+    "answerable": 6,
+    "secs": 0.38512730598449707
+  },
+  {
+    "sg": 1,
+    "window": 5,
+    "dim": 25,
+    "final_loss": 2.6751565085856948,
+    "acc_total": 0.05555555555555555,
+    "acc_answerable": 0.16666666666666666,
+    "coverage": 0.3333333333333333,
+    "correct": 1,
+    "answerable": 6,
+    "secs": 0.39477109909057617
+  },
+  {
+    "sg": 1,
+    "window": 5,
+    "dim": 50,
+    "final_loss": 2.714553123027904,
+    "acc_total": 0.0,
+    "acc_answerable": 0.0,
+    "coverage": 0.3333333333333333,
+    "correct": 0,
+    "answerable": 6,
+    "secs": 0.5668668746948242
+  }
+]

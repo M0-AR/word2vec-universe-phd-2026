@@ -1,0 +1,18 @@
+services:
+  w2v-cpu:
+    build: .
+    volumes:
+      - ./:/work
+      - ./results:/work/results
+      - ./data:/work/data
+    working_dir: /work
+    command: bash -c "make verify && python scripts/benchmark_grid.py --config configs/tiny.yaml && python scripts/live_verify.py --config configs/finance_live.yaml"
+    environment:
+      - PYTHONHASHSEED=42
+  w2v-jupyter:
+    build: .
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./:/work
+    command: bash -c "pip install jupyter && jupyter notebook --ip=0.0.0.0 --allow-root --no-browser"
